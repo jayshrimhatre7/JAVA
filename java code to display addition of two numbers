@@ -1,20 +1,12 @@
-import java.io.DataInputStream;
 public class add
 {
   public static void main(String args[])
   {
     int n1,n2,r;
-    DataInputStream in1 = new DataInputStream(System.in);
-    
-    try
-    {
-        System.out.println("enter first number: ");
-        n1=in1.readLine();
-        System.out.println("enter second number: ");
-        n2=in1.readLine();
-        r=n1+n2;
-         System.out.println("the addition is: "+c);
-        
-    }
+    n1=55;
+    n2=6;
+    r=n1+n2;
+    System.out.println("Addition : "+r);
   }
 }
+ 
