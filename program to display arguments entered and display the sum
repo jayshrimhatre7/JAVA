@@ -7,7 +7,6 @@ public class arg{
           System.out.println("The arguments are: "+args[i]);
 
           int sum= 0; 
-          l = sum;
           for(int j=0; j<args.length; j++){
                sum= sum+ Integer.parseInt(args[j]);  
 
